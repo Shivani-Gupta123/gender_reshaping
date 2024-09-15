@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.cd-tab-filter-search-wrapper{
+	background-color: #EFF2F7;
+}
+
+.cd-filter h4 {
+	margin-top: 20px;
+}
+
+.equ-filter ul{
+	margin: 0;
+	padding: 0;
+}
+
+.search-wrapper-wide button{
+	border-radius: 20px;
+	border: solid 2px #1D4488;
+	background-color: #FFF;
+    margin: 5px 10px 5px 0;
+	padding: 10px 15px;
+	color: #1D4488;
+}
+
+.search-wrapper-wide button:hover, .search-wrapper-wide button.mixitup-control-active{
+	border: solid 2px #FFF;
+	background-color: #1D4488;
+	color: #FFF;
+}
+
+.filter-item{
+	width: 31%;
+    height: 500px;
+    display: inline-block;
+	background-color: #EFF2F7;
+	margin: 5px 10px 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+	-o-transition:color .2s ease-out, background .2s ease-in;
+    -ms-transition:color .2s ease-out, background .2s ease-in;
+    -moz-transition:color .2s ease-out, background .2s ease-in;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+    transition:color .2s ease-out, background .2s ease-in;
+}
+
+.filter-item .content{
+	padding: 0;
+}
+
+.filter-item h2{
+	padding: 10px 15px 0;
+    margin-top: 10px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.filter-item p{
+	padding: 10px 15px 0;
+    font-size: .75em;
+    line-height: 1.3em;
+}
+
+.filter-item img{
+	padding: 0;
+	margin: 0;
+    float: none;
+}
+
+
+.filter-item a{
+	-o-transition:color .2s ease-out, background .2s ease-in;
+    -ms-transition:color .2s ease-out, background .2s ease-in;
+    -moz-transition:color .2s ease-out, background .2s ease-in;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+    transition:color .2s ease-out, background .2s ease-in;
+}
+
+.filter-item:hover{
+	cursor: pointer;
+	background-color: #1D4488;
+	color: #FFF;
+}
+
+.filter-item:hover a{
+	color: #FFF;
+}
+
+@media (max-width: 50em) {
+	.filter-item{
+		width: 47%;
+	}
+}
+
+.search-wrapper-wide button {
+    border-radius: 20px;
+    border: solid 2px #1D4488;
+    background-color: #FFF;
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+    color: #1D4488;
+    font-size: 80%;
+}
+
+
+
+
+
+

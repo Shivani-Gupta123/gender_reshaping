@@ -1,0 +1,129 @@
+.stld {
+	padding: 0;
+}
+.stld li {
+	list-style: none;
+	float: none;
+	width: 100%;
+}
+.stld span {
+	width: 50%;
+	float: left;
+}
+.flexslider {
+	margin-top: 20px;
+	padding: 0;
+	width: 100%;
+}
+.flex-direction-nav li a {
+	background: url("../../../../../clearing/images/bg_direction_nav.html") no-repeat scroll 0 0 transparent;
+	height: 30px;
+	margin: -26px 0 0;
+	opacity: 0.6;
+	text-indent: -9999px;
+	top: 50%;
+	background-position: -27px 0;
+	right: -31px;
+	width: 26px;
+}
+.flex-direction-nav li a.next {
+	background-position: -31px 0;
+	right: -31px;
+}
+.flex-direction-nav li a.prev {
+	left: -31px;
+}
+.flexslider .slides img {
+	margin: 0;
+	float: left;
+	width: 67%;
+}
+.flexslider .slides li {
+	background: #444;
+    width: 100%;
+    display: block;
+    float: left;
+    margin-right: -100%;
+}
+.flex-caption {
+	background: none repeat scroll 0 0 transparent;
+	float: right;
+	font-size: 1.2em;
+	padding: 0 2%;
+	position: static;
+	width: 29%;
+}
+.flex-caption span.credit {
+	font-size: 0.75em;
+	color: #777;
+	font-weight: normal;
+	text-shadow: none;
+}
+.flex-caption span.credit a {
+	color: #777;
+	text-decoration: none;
+}
+.ie7 .flex-caption, .ie8 .flex-caption {
+	font-size: 1.2em;
+}
+ @media only screen and (max-width: 1024px) {
+.flex-caption {
+	width: 98%;
+	margin-bottom: 10px;
+}
+.flexslider .slides img {
+	width: 100%;
+}
+.flex-direction-nav li a {
+	top: 150px;
+}
+}
+ @media only screen and (max-width: 500px) {
+html > body .flexslider .slides img {
+	display: block;
+}
+html > body .flexslider {
+	height: auto;
+}
+html > body .flex-caption {
+	height: auto;
+	background: none;
+	padding: 0;
+	top: 0;
+	margin-top: 10px;
+}
+html > body .flex-control-nav {
+	margin-top: 0;
+}
+}
+.contentVideo {
+	width: 100%!important;
+}
+.newsBlock ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.relatedNewsItem {
+	float: none;
+	margin-right: 0;
+	width: 100%;
+}
+.two-column .column-item:nth-child(2) {
+    width: 44%;
+    margin-left: 4%;
+}
+@media only screen and (max-width: 500px) {
+	.two-column .column-item:nth-child(2) {
+    width: 100%;
+    margin-left:0;
+	}
+}
+.two-column .column-item img.blog-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 5px;
+}
+
+

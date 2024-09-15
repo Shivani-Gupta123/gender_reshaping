@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'source_sans_pro_blackregular';
+    src: url(../../../strategy/fonts/sourcesanspro-black-webfont.eot);
+    src: url(../../../strategy/fonts/sourcesanspro-black-webfont.woff2) format('woff2'),
+        url(../../../strategy/fonts/sourcesanspro-black-webfont.woff) format('woff'),
+        url(../../../strategy/fonts/sourcesanspro-black-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.section-header__title {
+    color: #009ee2;
+    font-family: 'source_sans_pro_blackregular', sans-serif;
+}
+
+@media only screen and (min-width:768px) {
+
+    .section-header__title {
+        font-size: 3.444rem;
+    }
+}
+
+.mb-5 {
+    margin-bottom: 0;
+}
+
+.th-s4 {
+    font-size: 2.32rem;
+}
+
+.py-7 {
+    padding-bottom: .8889rem;
+    margin-top: .8889rem;
+}
+
+.hero-banner--centered {
+    text-align: left;
+}
+
+.breadcrumb {
+    padding-bottom: 1.3333rem;
+    padding-top: .8889rem;
+}
+
+.th-o {
+    font-family: 'source_sans_pro_blackregular', sans-serif;
+}
+
+.th-s1 {
+    font-size: 4rem;
+    letter-spacing: -1px;
+    transition: all .1s ease;
+}
+
+.sticky .section-header__title {
+    font-size: 2.4444rem;
+    transition: all .1s ease;
+}
+
+.prose h1 {
+    font-family: 'source_sans_pro_blackregular', sans-serif;
+    font-size: 2.4444rem;
+    margin-bottom: 2.2222rem;
+}
+
+.hero-banner__heading small {
+    font-size: 40%;
+    color: #fff;
+}
+
+.grid {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.grid__item {
+    margin-bottom: 1.6667rem;
+}
+
+@media only screen and (max-width:768px) {
+
+    .th-s1 {
+        font-size: 2.444rem;
+    }
+
+    .sticky .section-header__title {
+        font-size: 1.5556rem;
+    }
+
+    .pt-13 {
+        padding-top: 2.444rem;
+    }
+}
+
+.mx-auto {
+    padding-left: .8889rem;
+    padding-right: .8889rem;
+}
+
+/* Gradients */
+
+.hero-banner--g1 {
+    background-image: linear-gradient(110deg, #213769, #7a2173);
+    color: #73b82b;
+}
+
+.hero-banner--g2 {
+    background-image: linear-gradient(80deg, #203769, #1e4169, #0c8069);
+    color: #f08500;
+}
+
+.hero-banner--g3 {
+    background-image: linear-gradient(100deg, #f08000, #f08600, #df0017);
+    color: #213869;
+}
+
+.hero-banner--g4 {
+    background-image: linear-gradient(110deg, #1e1854, #2caebe);
+    color: #73b82b;
+}
+
+.hero-banner--g5 {
+    background-image: linear-gradient(80deg, #7a2371, #771f75, #f98b00);
+    color: #2db8c4;
+}
+
+.hero-banner--g6 {
+    background-image: linear-gradient(75deg, #203769, #f1010c);
+    color: #ffec00;
+}
+
+.hero-banner--g7 {
+    background-image: linear-gradient(110deg, #74b825, #2bb8ca);
+    color: #213869;
+}
+
+.hero-banner--g8 {
+    background-image: linear-gradient(100deg, #E30711, #E6200D, #F39A00);
+    color: #fff;
+}
+
+.hero-banner--g9 {
+    background-image: linear-gradient(100deg, #1E1B55, #1F2A60, #2DC2CC);
+    color: #fff;
+}
+
+/* Parallax */
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax p {
+    max-width: 50%;
+    margin-top: 5.7778rem;
+    padding: 1.6667rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.helicopter {
+    background-image: url(../../../strategy/images/helicopter.jpg);
+}
+
+.choir {
+    background-image: url(../../../strategy/images/choir.jpg);
+}
+
+.cdg {
+    background-image: url(../../../strategy/images/charlesDeGaulle.jpg);
+}
+
+.planet {
+    background-image: url(../../../strategy/images/planet.jpg);
+}
+
+.bee {
+    background-image: url(../../../strategy/images/bee.jpg);
+}
+
+.robotics {
+    background-image: url(../../../strategy/images/robotics.jpg);
+}
+
+.parallax--launch {
+    background-image: url(../../../strategy/images/strategy-2030-launch-crop.jpg);
+}
+
+.parallax--graduation {
+    background-image: url(../../../strategy/images/Summer-graduation-2023.jpg);
+}
+
+.parallax--campus {
+    background-image: url(../../../strategy/images/students-on-campus-crop.jpg);
+}
+
+.parallax--genomes {
+    background-image: url(../../../strategy/images/genomes-crop.jpg);
+}
+
+.parallax--garrod {
+    background-image: url(../../../strategy/images/garrod-building-crop.jpg);
+}
+
+.parallax--plastics {
+    background-image: url(../../../strategy/images/Micorplastics.png);
+}
+
+.parallax--food {
+    background-image: url(../../../strategy/images/food-poverty-in-africa.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+
+    .parallax p {
+        max-width: 100%;
+        margin-top: 0;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .helicopter {
+        background-image: url(../../../strategy/images/helicopterMob.jpg);
+    }
+
+    .choir {
+        background-image: url(../../../strategy/images/choirMob.jpg);
+    }
+
+    .cdg {
+        background-image: url(../../../strategy/images/charlesDeGaulleMob.jpg);
+    }
+
+    .planet {
+        background-image: url(../../../strategy/images/planetMob.jpg);
+    }
+
+    .bee {
+        background-image: url(../../../strategy/images/beeMob.jpg);
+    }
+
+    .robotics {
+        background-image: url(../../../strategy/images/roboticsMob.jpg);
+    }
+
+    .parallax--launch {
+        background-image: url(../../../strategy/images/strategy-2030-launch-mobile.jpg);
+    }
+    
+    .parallax--graduation {
+        background-image: url(../../../strategy/images/graduation-mobile.jpg);
+    }
+    
+    .parallax--campus {
+        background-image: url(../../../strategy/images/students-on-campus-mobile.jpg);
+    }
+    
+    .parallax--genomes {
+        background-image: url(../../../strategy/images/genomes-mobile.jpg);
+    }
+    
+    .parallax--garrod {
+        background-image: url(../../../strategy/images/garrod-building-mobile.jpg);
+    }
+    
+    .parallax--plastics {
+        background-image: url(../../../strategy/images/plastic-pollution-mobile.jpg);
+    }
+    
+    .parallax--food {
+        background-image: url(../../../strategy/images/food-poverty-in-africa-mobile.jpg);
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .parallax {
+        height: 130vh;
+    }
+}
+
+/* iPad fix */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .parallax {
+        background-attachment: scroll !important;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+
+    }
+}
+
+/* Sticky */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.sticky + section {
+    padding-top: 126px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sticky + section {
+        padding-top: 64px;
+    }
+
+}
